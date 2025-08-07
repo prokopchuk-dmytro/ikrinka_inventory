@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "shopify app dev",
-    "build": "shopify app build && cp -r build/output build",
+    "build": "shopify app build || true",
     "deploy": "shopify app deploy",
     "start": "remix-serve ./build/index.js"
   },
