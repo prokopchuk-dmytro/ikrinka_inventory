@@ -25,3 +25,6 @@ database.sqlite
 .shopify.locknode_modules/
 .env
 build/
+node_modules/
+.env
+build/

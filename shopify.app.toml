@@ -3,7 +3,7 @@
 client_id = "329fc2f173a190be995582261befd49e"
 name = "Inventory Manager"
 handle = "inventory-manager-57"
-application_url = "https://2ecf22c2fe23.ngrok-free.app"
+application_url = "https://moreover-lan-cgi-tiles.trycloudflare.com"
 embedded = true
 
 [build]
@@ -22,7 +22,7 @@ api_version = "2025-07"
   uri = "/webhooks/app/scopes_update"
 
 [auth]
-redirect_urls = ["https://2ecf22c2fe23.ngrok-free.app/auth/callback", "https://2ecf22c2fe23.ngrok-free.app/auth/shopify/callback", "https://2ecf22c2fe23.ngrok-free.app/api/auth/callback"]
+redirect_urls = ["https://moreover-lan-cgi-tiles.trycloudflare.com/auth/callback", "https://moreover-lan-cgi-tiles.trycloudflare.com/auth/shopify/callback", "https://moreover-lan-cgi-tiles.trycloudflare.com/api/auth/callback"]
 
 [access_scopes]
 scopes = "write_orders,write_inventory,read_orders,read_inventory"

@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { Button } from "@shopify/app-bridge-react";
 import { authenticatedFetch } from "@shopify/app-bridge-utils";
-import { json, useParams } from "@remix-run/react";
+import { useParams } from "@remix-run/react";
 
 export async function loader() {
-  return json({});
+  return null;
 }
 
 export default function OrderWriteOff() {
